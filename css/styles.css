@@ -2,8 +2,30 @@ body {
   font-family: Roboto, sans-serif;
   color: #434455;
   background-color: #ffffff;
-
+  list-style-type: none;
   text-decoration: none;
+}
+.container head {
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+.link-list {
+  display: flex;
+}
+.container {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-list-list {
+  margin: 0;
+  padding-left: 0;
 }
 
 .adress {
@@ -198,4 +220,27 @@ body {
 }
 .footer {
   background: #2e2f42;
+}
+/* скидання */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
 }
