@@ -208,9 +208,7 @@ body {
 .text-list{
   display: flex;
   gap: 24px;
-}
-.title{
-  width: calc((100% - 72px) / 4);
+  
 }
 /* our team */
 .team-box {
@@ -219,7 +217,6 @@ body {
 }
 .photo {
   background-color: #ffffff;
-width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   text-decoration: none;
 }
