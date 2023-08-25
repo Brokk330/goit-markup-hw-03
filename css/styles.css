@@ -9,6 +9,8 @@ body {
 .head {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
+  width: 1440px;
+  height: 72px;
 }
 .container-head {
   align-items: center;
@@ -31,6 +33,9 @@ body {
   align-items: center;
   padding: 24px 0 24px;
 }
+.adress {
+  display: flex;
+}
 .navi {
   display: flex;
   align-items: center;
@@ -41,11 +46,23 @@ body {
 }
 .last .nav-list {
   margin-right: 0;
+  margin-left: 300px;
 }
 .adress {
   font-style: normal;
+  display: flex;
+}
+.adress-list {
+  display: flex;
+  gap: 40px;
+}
+.adress-link {
+  display: flex;
+  gap: 40px;
+  margin-left: 100px;
 }
 .link-link {
+  padding-left: 156px;
   color: #4d5ae5;
   background-color: transparent;
   font-family: 'Raleway', sans-serif;
@@ -56,7 +73,7 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  margin-right: 76px;
+  margin-right: 347px;
 }
 .logo-studio {
   font-family: 'Raleway', sans-serif;
@@ -98,6 +115,7 @@ body {
   color: #404bbf;
 }
 .info {
+  display: flex;
   color: #434455;
   font-size: 16px;
   font-style: normal;
@@ -116,9 +134,14 @@ body {
   background: #2e2f42;
   margin-left: auto;
   margin-right: auto;
+  width: 1440px;
+  height: 600px;
 }
 .hero-title {
-  width: 472;
+  padding: 188px 472px 48px 472px;
+
+  margin-left: auto;
+  margin-right: auto;
   color: #fff;
   text-align: center;
   font-size: 56px;
@@ -138,7 +161,7 @@ body {
   margin-right: auto;
   display: block;
   border-radius: 4px;
-  padding: 16px 32px;
+  padding: 16px 32px 16px 32px;
   max-width: 169px;
   height: 56;
   border: none;
@@ -178,7 +201,7 @@ body {
 }
 .photo {
   background-color: #ffffff;
-  width: calc((100%-78px) / 4);
+  width: calc((100% - 78px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .neme-container {
@@ -301,6 +324,4 @@ img {
 }
 a {
   display: block;
-}
-.hide {
 }
