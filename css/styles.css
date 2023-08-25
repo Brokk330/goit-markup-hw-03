@@ -62,6 +62,7 @@ body {
   margin-left: 100px;
 }
 .link-link {
+  margin-right: 76px;
   padding-left: 156px;
   color: #4d5ae5;
   background-color: transparent;
@@ -73,10 +74,9 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  margin-right: 347px;
 }
 .logo-studio {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway',sans-serif;
   color: #2e2f42;
   background-color: transparent;
   line-height: 1.17;
