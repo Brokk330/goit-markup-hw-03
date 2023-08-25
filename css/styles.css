@@ -62,6 +62,7 @@ body {
   margin-left: 100px;
 }
 .link-link {
+  display: inline-block;
   margin-right: 76px;
   padding-left: 156px;
   color: #4d5ae5;
