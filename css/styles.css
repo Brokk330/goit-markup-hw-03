@@ -208,12 +208,12 @@ body {
 .text-list{
   display: flex;
   gap: 24px;
-  
 }
 /* our team */
 .team-box {
   background: var(--cloud, #f4f4fd);
   line-height: 1.2;
+  text-decoration: none;
 }
 .photo {
   background-color: #ffffff;
