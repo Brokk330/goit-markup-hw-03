@@ -16,6 +16,8 @@ body {
 }
 .link-list {
   display: flex;
+  gap: 40px;
+  list-style-type: none;
 }
 .container {
   width: 1158px;
@@ -27,6 +29,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 24px 0 24px;
 }
 .navi {
   display: flex;
@@ -36,7 +39,9 @@ body {
   margin: 0;
   padding-left: 0;
 }
-
+.last .nav-list {
+  margin-right: 0;
+}
 .adress {
   font-style: normal;
 }
@@ -67,6 +72,7 @@ body {
 .nav-list {
   display: flex;
   list-style-type: none;
+  gap: 40px;
 }
 .link-link:hover,
 .link-link:focus {
