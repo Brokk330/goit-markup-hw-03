@@ -131,7 +131,7 @@ body {
   color: #404bbf;
 }
 /* header finish */
-/* HERO start*/
+/* HERO1start*/
 .hero-section {
   background: #2e2f42;
   margin-left: auto;
@@ -190,6 +190,7 @@ body {
 }
 .hide {
   line-height: 1.2;
+ visibility: hidden;
 }
 .description {
   color: #434455;
@@ -199,6 +200,18 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+/* section2 start */
+.section-feature{
+  padding: 120px 0 120px;
+
+}
+.text-list{
+  display: flex;
+  gap: 24px;
+}
+.title{
+  width: calc((100% - 72px) / 4);
+}
 /* our team */
 .team-box {
   background: var(--cloud, #f4f4fd);
@@ -206,8 +219,9 @@ body {
 }
 .photo {
   background-color: #ffffff;
-  width: calc((100% - 78px) / 4);
+width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  text-decoration: none;
 }
 .neme-container {
   padding-top: 32px;
