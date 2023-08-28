@@ -27,8 +27,6 @@ body {
   margin: 0 auto;
   align-items: center;
 }
-.photo-container{
-  margin-bottom: 120px;
 }
 .navigation {
   display: flex;
@@ -213,6 +211,7 @@ body {
   background: var(--cloud, #f4f4fd);
   line-height: 1.2;
   text-decoration: none;
+  padding: 120px 0
 }
 .photo {
   background-color: #ffffff;
