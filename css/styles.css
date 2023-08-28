@@ -215,6 +215,7 @@ body {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   text-decoration: none;
+  width: calc((100% - 72px) / 4);
 }
 .neme-container {
   padding-top: 32px;
@@ -230,6 +231,7 @@ body {
   text-align: center;
 }
 .pohoto-list {
+  display: flex;
   display: inline-flex;
   gap: 32px;
   padding: 0;
