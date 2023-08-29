@@ -330,6 +330,10 @@ body {
   background: #2e2f42;
   padding: 100px 0 100px;
 }
+.link-link-footer{
+  margin-bottom: 16px;
+  padding: 3089.5 1240 189.5 156;
+}
 /* скидання */
 .visually-hidden {
   position: absolute;
