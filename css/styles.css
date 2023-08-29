@@ -273,6 +273,8 @@ body {
 }
 /* PORTFOLIO */
 .portfolio {
+  display: flex;
+  gap: 24px;
   text-decoration: none;
   padding: 120px 0 120px 0;
 }
@@ -308,6 +310,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .product-type {
   padding: 32px 0;
