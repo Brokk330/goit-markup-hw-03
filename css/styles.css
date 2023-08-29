@@ -20,7 +20,6 @@ body {
   display: flex;
   gap: 40px;
   list-style-type: none;
- 
 }
 .container {
   width: 1158px;
@@ -218,8 +217,7 @@ body {
   background-color: #ffffff;
   display: flex;
   display: inline-block;
-
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .neme-container {
   padding-top: 32px;
@@ -259,6 +257,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
+/* PORTFOLIO */
+.portfolio {
+  text-decoration: none;
+}
 .portfolio-toper {
   color: #2e2f42;
   text-align: center;
@@ -271,6 +273,16 @@ body {
 }
 .portfolio-item {
   width: calc((100%-47px) / 3);
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  width: 360px;
+  height: 420px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
 }
 .products {
   color: #2e2f42;
