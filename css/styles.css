@@ -273,6 +273,7 @@ body {
 /* PORTFOLIO */
 .portfolio {
   text-decoration: none;
+  padding: 120px 0 120px 0;
 }
 .portfolio-toper {
   color: #2e2f42;
