@@ -205,6 +205,10 @@ body {
   display: flex;
   gap: 24px;
 }
+.advantage-item{
+  
+  width: calc((100% - (24px * 3)) / 4);
+}
 /* our team */
 .team-box {
   background: var(--cloud, #f4f4fd);
