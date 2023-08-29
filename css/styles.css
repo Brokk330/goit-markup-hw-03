@@ -283,6 +283,7 @@ body {
 }
 .portfolio-item {
   width: calc((100%-47px) / 3);
+  border-radius: 0 0 4px 4px;
   text-decoration: none;
   list-style-type: none;
   display: flex;
