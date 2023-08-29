@@ -20,13 +20,13 @@ body {
   display: flex;
   gap: 40px;
   list-style-type: none;
+  padding: 24px 0 24px;
 }
 .container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
   align-items: center;
-}
 }
 .navigation {
   display: flex;
@@ -211,12 +211,12 @@ body {
   background: var(--cloud, #f4f4fd);
   line-height: 1.2;
   text-decoration: none;
-  padding: 120px 0
+  padding: 120px 0;
 }
 .photo {
   background-color: #ffffff;
-display: flex;
-display: inline-block;
+  display: flex;
+  display: inline-block;
 
   width: calc((100%-72px) / 4);
 }
