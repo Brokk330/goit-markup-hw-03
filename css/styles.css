@@ -202,11 +202,10 @@ body {
   padding: 120px 0 120px;
 }
 .text-list {
-  display: flex;
+ display: flex;
   gap: 24px;
 }
-.advantage-item{
-  
+.advantage-item {
   width: calc((100% - (24px * 3)) / 4);
 }
 /* our team */
