@@ -20,7 +20,7 @@ body {
   display: flex;
   gap: 40px;
   list-style-type: none;
-  padding: 24px 0 24px;
+ 
 }
 .container {
   width: 1158px;
@@ -76,7 +76,7 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
-  margin-bottom: 16px;
+  padding: 24px 0 24px 156px;
 }
 .logo-studio {
   font-family: 'Raleway', sans-serif;
@@ -88,6 +88,7 @@ body {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   text-decoration: none;
+  padding: 24px 0 24px;
 }
 .nav-list {
   display: flex;
