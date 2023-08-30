@@ -250,7 +250,6 @@ body {
 .pohoto-list {
   display: flex;
   justify-content: center;
-  display: inline-flex;
   gap: 24px;
   padding: 0;
 }
