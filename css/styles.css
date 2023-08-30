@@ -316,6 +316,7 @@ body {
 }
 .product-type {
   display: flex;
+  border-top: none;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
