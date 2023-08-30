@@ -313,6 +313,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 72px;
+  margin-bottom: 8px;
 }
 .product-type {
   display: flex;
